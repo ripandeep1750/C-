@@ -1,0 +1,11 @@
+// Program to add two integers
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, sum ;
+    cout << "Enter two integers: ";
+    cin>>a>>b;
+    sum = a + b;
+    cout<<"The sum of two integers is: "<<sum;
+    return 0;
+}
